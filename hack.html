@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Finance Manager</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Personal Finance Manager</h1>
+
+  <div id="signup-form">
+    <h2>Sign Up</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="register()">Register</button>
+  </div>
+
+  <div id="login-form">
+    <h2>Login</h2>
+    <input type="text" id="login-username" placeholder="Username">
+    <input type="password" id="login-password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div id="expense-tracker" style="display: none;">
+    <h2>Expense Tracker</h2>
+    <!-- Add expense tracking form and display expenses -->
+
+    <h2>Budget Management</h2>
+    <!-- Add budget management form and display budget details -->
+
+    <h2>Financial Insight</h2>
+    <!-- Display financial insights -->
+
+    <h2>Notifications and Reminders</h2>
+    <!-- Display notifications and reminders -->
+
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
